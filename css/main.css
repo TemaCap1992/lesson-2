@@ -60,14 +60,14 @@ h2 {
     color: #333333;
 }
 
-.icon--lamp {
+.icon-lamp {
     background: url(../img/lamp.png) no-repeat center center;
 }
 
-.icon--keyboard {
+.icon-keyboard {
     background: url(../img/keyboard.png) no-repeat center center;
 }
 
-.icon--lightning {
+.icon-lightning {
     background: url(../img/lightning.png) no-repeat center center;
 }
