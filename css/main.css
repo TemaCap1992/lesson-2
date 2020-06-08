@@ -1,43 +1,73 @@
-.main {
-	width: 1400px;
-	height: 590px;
-	margin-top: 106px;
-	margin-bottom: 106px;
-	margin-left: 143px;
-	margin-right: 144px;
-	text-align: center;
-}
-.title {
-	color: #212121;
-	font-family: 'Raleway', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.subtitle {
-	color: #333333;
-	font-family: 'Open Sans', sans-serif;
+.container {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding-top: 107px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+}
+
+hr {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #FF8B38;
+    margin: 30px auto;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+main {
+    padding: 80px 0 107px;
+    font-size: 0;
 }
 
 .wrap {
-	margin-top: 80px;
-	height: 197px;
-	width: 350px;
-	display: inline-block;
+    display: inline-block;
+    width: 350px;
+    margin: 0 16px;
 }
 
-.text {
-	margin-top: 30px;
-	color: #86878B;
-	font-family: 'Open Sans', sans-serif;
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
 }
-.pic {
-	margin-top: 15px;
+
+h2 {
+    margin: 29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
 }
-.circle {
-	width: 70px;
-	height: 70px;
-	border-radius: 70px; 		
-    border: 2px solid #ff8b38;
-	text-align: center;
-	display: inline-block;
-	margin-bottom: 15px;
+
+.icon--lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon--keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon--lightning {
+    background: url(../img/lightning.png) no-repeat center center;
 }
